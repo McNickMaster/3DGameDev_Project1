@@ -8,16 +8,8 @@ public class Player : MonoBehaviour
     public float grabRange = 15f, grabSize = 1.5f;
     public float dropForce = 50, throwForce = 500;
 
-    public float waterMod = 0.4f;
-    public float rise = 20f, fall = 10f;
-
     private float moveMod = 1;
     private float yMod = 1;
-
-    [SerializeField]
-    private bool water = false;
-
-    
 
     [Header("Camera Settings")]
     private float xRotation;
@@ -169,19 +161,12 @@ public class Player : MonoBehaviour
 
     void OnTriggerEnter(Collider other)
     {
-        if(other.gameObject.layer == 4)
-        {
-            water = true;
-        }
+        
     }
 
     void OnTriggerExit(Collider other)
     {
-        if(other.gameObject.layer == 4)
-        {
-            water = false;
-            rb.AddForce(Vector3.up * 500, ForceMode.Acceleration);
-        }
+        
     }
 
     
