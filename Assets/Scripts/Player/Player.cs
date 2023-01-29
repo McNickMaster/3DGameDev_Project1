@@ -7,6 +7,7 @@ public class Player : MonoBehaviour
     public float movespeed = 1.3f, gravForce;
     public float grabRange = 15f, grabSize = 1.5f;
     public float dropForce = 50, throwForce = 500;
+    public float crouchHeight = 0.4f, crouchSpeedMod = 0.75f;
 
     private float moveMod = 1;
     private float yMod = 1;
@@ -24,6 +25,7 @@ public class Player : MonoBehaviour
 
     [SerializeField]
     private bool canPickUp = false;
+    private bool crouched = false;
     [SerializeField]
     private GameObject objectToPickUp, objectInHand;
     
@@ -43,7 +45,10 @@ public class Player : MonoBehaviour
     {
         Move();
         Look();
+        CheckCrouch();
         //CheckPickup();
+
+
 
         
     }
@@ -122,6 +127,22 @@ public class Player : MonoBehaviour
 
         //charController.Move(velocity.x * body.transform.right + velocity.z * body.transform.forward + (gravForce * Vector3.down));
         rb.velocity = (moveMod * (velocity.x * body.transform.right + velocity.z * body.transform.forward) + (gravForce * yMod  * Time.fixedDeltaTime * Vector3.down));
+        if(crouched)
+        {
+            rb.velocity *= crouchSpeedMod;
+        }
+    }
+
+    private void CheckCrouch()
+    {
+        if(Input.GetKeyDown(KeyCode.C))
+        {
+            crouched = !crouched;
+        }
+
+        
+        transform.localScale = new Vector3(1, crouched ? crouchHeight:1
+        , 1);
     }
 
     float desiredX, desiredZ;
