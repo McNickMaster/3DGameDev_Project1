@@ -15,7 +15,7 @@ C:/Users/Satawin/Documents/GitHub/3DGameDev_Project1
 -logFile
 Logs/AssetImportWorker2.log
 -srvPort
-59904
+61804
 Successfully changed project path to: C:/Users/Satawin/Documents/GitHub/3DGameDev_Project1
 C:/Users/Satawin/Documents/GitHub/3DGameDev_Project1
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ C:/Users/Satawin/Documents/GitHub/3DGameDev_Project1
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 83.06 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 82.63 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.9f1 (ad3870b89536)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/Resources/UnitySubsystems
@@ -63,79 +63,79 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56996
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56072
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.009057 seconds.
+Registered in 0.009148 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 78.94 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 85.05 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.637 seconds
+- Completed reload, in  0.634 seconds
 Domain Reload Profiling:
-	ReloadAssembly (638ms)
-		BeginReloadAssembly (85ms)
+	ReloadAssembly (634ms)
+		BeginReloadAssembly (72ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (441ms)
-			LoadAssemblies (82ms)
+		EndReloadAssembly (453ms)
+			LoadAssemblies (70ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (97ms)
+			SetupTypeCache (95ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (27ms)
-			SetupLoadedEditorAssemblies (267ms)
+			RebuildScriptCaches (28ms)
+			SetupLoadedEditorAssemblies (280ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (9ms)
+				InitializePlatformSupportModulesInManaged (11ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (79ms)
+				RefreshPlugins (85ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (136ms)
-				ProcessInitializeOnLoadMethodAttributes (42ms)
+				ProcessInitializeOnLoadAttributes (140ms)
+				ProcessInitializeOnLoadMethodAttributes (41ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.006779 seconds.
+Registered in 0.006902 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\Satawin\Documents\GitHub\3DGameDev_Project1\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\Satawin\Documents\GitHub\3DGameDev_Project1\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.73 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.64 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.061 seconds
+- Completed reload, in  1.062 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1062ms)
-		BeginReloadAssembly (107ms)
+	ReloadAssembly (1063ms)
+		BeginReloadAssembly (112ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (17ms)
-		EndReloadAssembly (841ms)
-			LoadAssemblies (84ms)
+			CreateAndSetChildDomain (16ms)
+		EndReloadAssembly (833ms)
+			LoadAssemblies (90ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (269ms)
+			SetupTypeCache (249ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (48ms)
-			SetupLoadedEditorAssemblies (400ms)
+			RebuildScriptCaches (57ms)
+			SetupLoadedEditorAssemblies (397ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (8ms)
+				InitializePlatformSupportModulesInManaged (7ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (107ms)
-				ProcessInitializeOnLoadAttributes (244ms)
-				ProcessInitializeOnLoadMethodAttributes (29ms)
-				AfterProcessingInitializeOnLoad (11ms)
+				BeforeProcessingInitializeOnLoad (95ms)
+				ProcessInitializeOnLoadAttributes (257ms)
+				ProcessInitializeOnLoadMethodAttributes (27ms)
+				AfterProcessingInitializeOnLoad (10ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (5ms)
@@ -143,12 +143,12 @@ Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 1.76 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.73 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3757 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 28 unused Assets / (163.3 KB). Loaded Objects now: 4215.
 Memory consumption went from 134.0 MB to 133.8 MB.
-Total: 5.448700 ms (FindLiveObjects: 0.473800 ms CreateObjectMapping: 0.519800 ms MarkObjects: 4.256000 ms  DeleteObjects: 0.197800 ms)
+Total: 3.899100 ms (FindLiveObjects: 0.493200 ms CreateObjectMapping: 0.264000 ms MarkObjects: 3.003700 ms  DeleteObjects: 0.135100 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -163,19 +163,187 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 725100.750104 seconds.
-  path: Assets/AdventureForge/Geometry/Industrial Cabinets and Shelves/MetalCabinet01/Materials/CleanRed
-  artifactKey: Guid(db7795d461afe9b428c8a59105f43b82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AdventureForge/Geometry/Industrial Cabinets and Shelves/MetalCabinet01/Materials/CleanRed using Guid(db7795d461afe9b428c8a59105f43b82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03d365118bc5fc51f181109ab203e23d') in 0.013859 seconds 
+  Time since last request: 47210.867751 seconds.
+  path: Assets/Old Cabinet/Meshes
+  artifactKey: Guid(65690cb5272f4f94aa4501a2183a1eed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Old Cabinet/Meshes using Guid(65690cb5272f4f94aa4501a2183a1eed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f4d0b9fbf0351d10a0fe3f1b7c4610f') in 0.011770 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.413636 seconds.
-  path: Assets/AdventureForge/Geometry/Industrial Cabinets and Shelves/MetalCabinet01/Materials/CleanRed/512
-  artifactKey: Guid(ad639a258d082ca42973b46869088a38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AdventureForge/Geometry/Industrial Cabinets and Shelves/MetalCabinet01/Materials/CleanRed/512 using Guid(ad639a258d082ca42973b46869088a38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49935577936d0f958b39c7dbb27e361e') in 0.008546 seconds 
+  Time since last request: 0.034389 seconds.
+  path: Assets/Old Cabinet/Meshes/SM_cabinet.FBX
+  artifactKey: Guid(57f7da9926d23b545bfa1970b4283dd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Old Cabinet/Meshes/SM_cabinet.FBX using Guid(57f7da9926d23b545bfa1970b4283dd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4d5e37983671d1ef9f8cdeb774ace92') in 0.264600 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.068262 seconds.
-  path: Assets/AdventureForge/Geometry/Industrial Cabinets and Shelves/MetalCabinet01/Materials/CleanRed/512/MatalCabinetShelfMA512.mat
-  artifactKey: Guid(429ec085a2c58f74e8aef15483e528bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AdventureForge/Geometry/Industrial Cabinets and Shelves/MetalCabinet01/Materials/CleanRed/512/MatalCabinetShelfMA512.mat using Guid(429ec085a2c58f74e8aef15483e528bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a392b6f291cdf1de0001b349e90dfcab') in 0.398881 seconds 
+  Time since last request: 3.949602 seconds.
+  path: Assets/Old Cabinet/Materials
+  artifactKey: Guid(d0234ba368eeec9418390da711bfdad0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Old Cabinet/Materials using Guid(d0234ba368eeec9418390da711bfdad0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22697197e1b26f0cedd0ba13d55cf5e3') in 0.001931 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.046549 seconds.
+  path: Assets/Old Cabinet/Materials/M_cabinet.mat
+  artifactKey: Guid(98012d1931461924d848b05c6f03d1d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Old Cabinet/Materials/M_cabinet.mat using Guid(98012d1931461924d848b05c6f03d1d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8eb35c3637a2d606ea9c6d4fb214dfff') in 0.048969 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.642768 seconds.
+  path: Assets/Old Cabinet/Materials/T_cabinet_AO.mat
+  artifactKey: Guid(9a67f99c4662a4e48abc36fbbe1fbd8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Old Cabinet/Materials/T_cabinet_AO.mat using Guid(9a67f99c4662a4e48abc36fbbe1fbd8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd12b251a657b2b3840b6237da2f9eff9') in 0.025735 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/Old Cabinet/Materials/T_cabinet_glass_MetallicSmoothness.mat
+  artifactKey: Guid(a8d1d882978286b44acc8f6f3e392559) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Old Cabinet/Materials/T_cabinet_glass_MetallicSmoothness.mat using Guid(a8d1d882978286b44acc8f6f3e392559) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bb559bf584b828c9af21e109a256f67') in 0.026882 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Old Cabinet/Materials/T_cabinet_glass_Normal.mat
+  artifactKey: Guid(e6ad690f7f6eccc4a829a4bb9136bc86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Old Cabinet/Materials/T_cabinet_glass_Normal.mat using Guid(e6ad690f7f6eccc4a829a4bb9136bc86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2eaea6cb6db875fc80558cdc0b826aa8') in 0.027682 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Old Cabinet/Materials/T_cabinet_Normal.mat
+  artifactKey: Guid(b2c14d3655d1baa4b94c8c39bc7f9fdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Old Cabinet/Materials/T_cabinet_Normal.mat using Guid(b2c14d3655d1baa4b94c8c39bc7f9fdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cdc31c0a25035587efb41773284abbc') in 0.023871 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Old Cabinet/Materials/T_cabinet_glass_AlbedoTransparency.mat
+  artifactKey: Guid(1d3c4432c53fdd34996a2c486d0cdfe8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Old Cabinet/Materials/T_cabinet_glass_AlbedoTransparency.mat using Guid(1d3c4432c53fdd34996a2c486d0cdfe8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e538527839696a416b81aa55359af33b') in 0.025372 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Old Cabinet/Materials/T_cabinet_AlbedoTransparency.mat
+  artifactKey: Guid(f837c8d533ab64f4283fa0d67f4e9cd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Old Cabinet/Materials/T_cabinet_AlbedoTransparency.mat using Guid(f837c8d533ab64f4283fa0d67f4e9cd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1aed1c43afd7fec91b89a03c037d7f05') in 0.027984 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.315685 seconds.
+  path: Assets/Old Cabinet/Scenes
+  artifactKey: Guid(caf8d92792f1cf8428c1571df9737e55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Old Cabinet/Scenes using Guid(caf8d92792f1cf8428c1571df9737e55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c32c0fd997fe35064f5349a08a55ff71') in 0.004700 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.048114 seconds.
+  path: Assets/Old Cabinet/Scenes/Postprocess Profile_URP.asset
+  artifactKey: Guid(10fc4df2da32a41aaa32d77bc913491c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Old Cabinet/Scenes/Postprocess Profile_URP.asset using Guid(10fc4df2da32a41aaa32d77bc913491c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f663a84e1407bbad6d09c7404b34afdd') in 0.005755 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 44.948389 seconds.
+  path: Assets/Industrial Props
+  artifactKey: Guid(ac25b2581f5d4634a80d14da35624359) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Industrial Props using Guid(ac25b2581f5d4634a80d14da35624359) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86f72c48421914f5d6ec0834db355e1c') in 0.003233 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.469494 seconds.
+  path: Assets/Gerhald3D
+  artifactKey: Guid(85aac0fd91b73cb4f905ac67000b25fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gerhald3D using Guid(85aac0fd91b73cb4f905ac67000b25fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '756022a38f9eea331225c7a1d5bb9014') in 0.002641 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.772174 seconds.
+  path: Assets/Gerhald3D/PalletPlywoodNew
+  artifactKey: Guid(de6d4f36163588140a6fda2c14601a23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gerhald3D/PalletPlywoodNew using Guid(de6d4f36163588140a6fda2c14601a23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b75bc303345e7209edec59b562b6f74c') in 0.003262 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.486629 seconds.
+  path: Assets/Gerhald3D/PalletPlywoodNew/Prefabs
+  artifactKey: Guid(545d0be5d2cc19644bc84c86a1b4d70a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gerhald3D/PalletPlywoodNew/Prefabs using Guid(545d0be5d2cc19644bc84c86a1b4d70a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7af47c7a4cfe68c2516bb97a79deacd') in 0.003217 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.051185 seconds.
+  path: Assets/Gerhald3D/PalletPlywoodNew/Prefabs/PalletPlywoodNew_GameReady_LODs.prefab
+  artifactKey: Guid(8e9cfe484ecf4d4488abf6cf180b0c72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gerhald3D/PalletPlywoodNew/Prefabs/PalletPlywoodNew_GameReady_LODs.prefab using Guid(8e9cfe484ecf4d4488abf6cf180b0c72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83d1bdcaf84ad2668ea65af190df9ac4') in 0.279243 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.997030 seconds.
+  path: Assets/Construction_Site_Column
+  artifactKey: Guid(bb15e77714b01bd4d9fae2df29a2aea8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Construction_Site_Column using Guid(bb15e77714b01bd4d9fae2df29a2aea8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8849fb64b1fecdd83565aef43a1c0d0f') in 0.002588 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.809734 seconds.
+  path: Assets/Construction_Site_Column/Prefabs
+  artifactKey: Guid(be2779e98774fbe488367a81a0334b08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Construction_Site_Column/Prefabs using Guid(be2779e98774fbe488367a81a0334b08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94b42202840f30383881b3c01b31c5e9') in 0.002758 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.073112 seconds.
+  path: Assets/Construction_Site_Column/Prefabs/column.prefab
+  artifactKey: Guid(f027f37a9d1d9be41834223199c17fa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Construction_Site_Column/Prefabs/column.prefab using Guid(f027f37a9d1d9be41834223199c17fa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adb7a68ef1cc7a4077029d4f4a672c8d') in 0.120073 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.148367 seconds.
+  path: Assets/Construction_Site_Column/3dobjects
+  artifactKey: Guid(cc53fae68f9291340b031dba87a015c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Construction_Site_Column/3dobjects using Guid(cc53fae68f9291340b031dba87a015c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad0673f9dd814268e6183a0066c86cc9') in 0.003055 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.427482 seconds.
+  path: Assets/Construction_Site_Column/3dobjects/absperrhut.fbx
+  artifactKey: Guid(d9aae4951d944bf4e814212adf63ea00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Construction_Site_Column/3dobjects/absperrhut.fbx using Guid(d9aae4951d944bf4e814212adf63ea00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f122f027ba0f3953e495e943ca7d0df0') in 0.028043 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.927438 seconds.
+  path: Assets/AdventureForge/PreFab
+  artifactKey: Guid(80f53dbf8c78c4c44b482f8aa580216a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AdventureForge/PreFab using Guid(80f53dbf8c78c4c44b482f8aa580216a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9891815c3de3ce21f443edd14447d55') in 0.002669 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.686265 seconds.
+  path: Assets/AdventureForge/PreFab/Industrial Cabinets and Shelves
+  artifactKey: Guid(0b2669ff0ba45bd41bcb56e0db3c6644) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AdventureForge/PreFab/Industrial Cabinets and Shelves using Guid(0b2669ff0ba45bd41bcb56e0db3c6644) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4ff17855b9f670646a9c8acb0d32869') in 0.002638 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.565565 seconds.
+  path: Assets/AdventureForge/PreFab/Industrial Cabinets and Shelves/MetalCabinet01
+  artifactKey: Guid(fafcc6f113eb18a479eba0dab4f1291a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AdventureForge/PreFab/Industrial Cabinets and Shelves/MetalCabinet01 using Guid(fafcc6f113eb18a479eba0dab4f1291a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e47951150d1671e961b8d257d60f099') in 0.002274 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.122328 seconds.
+  path: Assets/AdventureForge/PreFab/Industrial Cabinets and Shelves/MetalCabinet01/CleanRed
+  artifactKey: Guid(a1ba1777378e92040b656b669637f821) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AdventureForge/PreFab/Industrial Cabinets and Shelves/MetalCabinet01/CleanRed using Guid(a1ba1777378e92040b656b669637f821) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6146219513dbbfe8d78d7d901bed64fb') in 0.002437 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.552874 seconds.
+  path: Assets/AdventureForge/PreFab/Industrial Cabinets and Shelves/MetalCabinet01/CleanRed/512
+  artifactKey: Guid(f8c955ec3fb04924fb00f71e8fd7e7e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AdventureForge/PreFab/Industrial Cabinets and Shelves/MetalCabinet01/CleanRed/512 using Guid(f8c955ec3fb04924fb00f71e8fd7e7e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67740f32ee8adc29595b6f0b3814728e') in 0.002278 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.047956 seconds.
+  path: Assets/AdventureForge/PreFab/Industrial Cabinets and Shelves/MetalCabinet01/CleanRed/512/MetalCabinetDDWalledFull04.prefab
+  artifactKey: Guid(ab1d1bd8e5dd10b42bf2bca680cefaf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AdventureForge/PreFab/Industrial Cabinets and Shelves/MetalCabinet01/CleanRed/512/MetalCabinetDDWalledFull04.prefab using Guid(ab1d1bd8e5dd10b42bf2bca680cefaf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bbdcc0b3186929ca0cf261c8c04fdac') in 0.017330 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.637854 seconds.
+  path: Assets/AdventureForge/PreFab/Industrial Cabinets and Shelves/MetalCabinet01/RustedRed
+  artifactKey: Guid(c19c31c9080a52b419410662b87bc3ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AdventureForge/PreFab/Industrial Cabinets and Shelves/MetalCabinet01/RustedRed using Guid(c19c31c9080a52b419410662b87bc3ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '275de8e65dced91a67c2903cd83c0956') in 0.003889 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.617550 seconds.
+  path: Assets/AdventureForge/PreFab/Industrial Cabinets and Shelves/MetalCabinet01/RustedRed/512
+  artifactKey: Guid(96889988985fbc447a57dfa560fdea59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AdventureForge/PreFab/Industrial Cabinets and Shelves/MetalCabinet01/RustedRed/512 using Guid(96889988985fbc447a57dfa560fdea59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86d694a67b488e9c340f2205200bfa1e') in 0.002731 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.040633 seconds.
+  path: Assets/AdventureForge/PreFab/Industrial Cabinets and Shelves/MetalCabinet01/RustedRed/512/MetalCabinetDDWalledFull04 1.prefab
+  artifactKey: Guid(e6dfc6cc0cb127e43a220e29dbadbfd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AdventureForge/PreFab/Industrial Cabinets and Shelves/MetalCabinet01/RustedRed/512/MetalCabinetDDWalledFull04 1.prefab using Guid(e6dfc6cc0cb127e43a220e29dbadbfd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8209a9488c432742cc837503b419529') in 0.052508 seconds 
