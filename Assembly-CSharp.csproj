@@ -60,6 +60,7 @@
     <Compile Include="Assets\Scripts\Player\Player.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\LowPolyOfficeProps_LITE\About.txt" />
     <None Include="Assets\AdventureForge\CabinetsAndShelvesReadme.txt" />
     <None Include="Assets\Construction_Site_Column\README_Import_to_2018-HDRP.txt" />
     <None Include="Assets\Industrial Props\ReadMe.txt" />
