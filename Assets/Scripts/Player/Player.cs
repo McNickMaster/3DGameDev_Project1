@@ -25,7 +25,7 @@ public class Player : MonoBehaviour
 
     [SerializeField]
     private bool canPickUp = false;
-    private bool crouched = false;
+    private bool crouched = false, justCrouched = false;
     [SerializeField]
     private GameObject objectToPickUp, objectInHand;
     
@@ -135,14 +135,27 @@ public class Player : MonoBehaviour
 
     private void CheckCrouch()
     {
+        justCrouched = false;
         if(Input.GetKeyDown(KeyCode.C))
         {
-            crouched = !crouched;
+            if(crouched)
+            {
+                crouched = false;
+            } else if(!crouched)
+            {
+                crouched = true;
+                justCrouched = true;
+            }
         }
 
         
         transform.localScale = new Vector3(1, crouched ? crouchHeight:1
         , 1);
+
+        if(justCrouched)
+        {
+            transform.Translate(Vector3.down * crouchHeight * 2);
+        }
     }
 
     float desiredX, desiredZ;

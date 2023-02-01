@@ -16,8 +16,8 @@ GameObject:
   m_Name: Capsule
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &112939453132057216
 Transform:
@@ -63,7 +63,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 378436a5eddf2d547aa909a8726cbc74, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -114,7 +114,7 @@ GameObject:
   m_Name: Player
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &112939453247554800
@@ -148,7 +148,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 80
-  m_CollisionDetection: 0
+  m_CollisionDetection: 2
 --- !u!114 &112939453247554798
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -167,8 +167,8 @@ MonoBehaviour:
   grabSize: 1.5
   dropForce: 50
   throwForce: 500
-  crouchHeight: 0.4
-  crouchSpeedMod: 0.6
+  crouchHeight: 0.6
+  crouchSpeedMod: 0.4
   body: {fileID: 112939453247554800}
   playerCam: {fileID: 112939453756200998}
   charController: {fileID: 0}
@@ -193,8 +193,8 @@ GameObject:
   m_Name: Head
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &112939453756200998
 Transform:
@@ -290,8 +290,8 @@ GameObject:
   m_Name: Main Camera
   m_TagString: MainCamera
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &112939454096088395
 Transform:
@@ -318,7 +318,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_BackGroundColor: {r: 0.085662164, g: 0.14406818, b: 0.23584908, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0

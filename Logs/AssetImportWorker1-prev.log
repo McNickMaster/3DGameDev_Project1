@@ -15,7 +15,7 @@ C:/Users/Satawin/Documents/GitHub/3DGameDev_Project1
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-53477
+65278
 Successfully changed project path to: C:/Users/Satawin/Documents/GitHub/3DGameDev_Project1
 C:/Users/Satawin/Documents/GitHub/3DGameDev_Project1
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ C:/Users/Satawin/Documents/GitHub/3DGameDev_Project1
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 87.99 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 84.92 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.9f1 (ad3870b89536)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/Resources/UnitySubsystems
@@ -63,47 +63,47 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56752
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56756
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.010204 seconds.
+Registered in 0.009387 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 81.87 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 82.83 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.686 seconds
+- Completed reload, in  0.636 seconds
 Domain Reload Profiling:
-	ReloadAssembly (687ms)
-		BeginReloadAssembly (77ms)
+	ReloadAssembly (636ms)
+		BeginReloadAssembly (73ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (491ms)
-			LoadAssemblies (74ms)
+		EndReloadAssembly (451ms)
+			LoadAssemblies (71ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (135ms)
+			SetupTypeCache (99ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (28ms)
-			SetupLoadedEditorAssemblies (275ms)
+			RebuildScriptCaches (27ms)
+			SetupLoadedEditorAssemblies (274ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (9ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (82ms)
+				RefreshPlugins (83ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (140ms)
-				ProcessInitializeOnLoadMethodAttributes (42ms)
+				ProcessInitializeOnLoadAttributes (138ms)
+				ProcessInitializeOnLoadMethodAttributes (43ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.007105 seconds.
+Registered in 0.006667 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\Satawin\Documents\GitHub\3DGameDev_Project1\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\Satawin\Documents\GitHub\3DGameDev_Project1\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
@@ -112,179 +112,43 @@ Native extension for WebGL target not found
 Refreshing native plugins compatible for Editor in 0.61 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.112 seconds
+- Completed reload, in  1.099 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1113ms)
-		BeginReloadAssembly (125ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (20ms)
-		EndReloadAssembly (865ms)
-			LoadAssemblies (94ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (278ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (56ms)
-			SetupLoadedEditorAssemblies (393ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (94ms)
-				ProcessInitializeOnLoadAttributes (251ms)
-				ProcessInitializeOnLoadMethodAttributes (29ms)
-				AfterProcessingInitializeOnLoad (11ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
-Platform modules already initialized, skipping
-========================================================================
-Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 1.12 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3757 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 28 unused Assets / (163.0 KB). Loaded Objects now: 4215.
-Memory consumption went from 134.0 MB to 133.8 MB.
-Total: 3.726500 ms (FindLiveObjects: 0.298500 ms CreateObjectMapping: 0.201600 ms MarkObjects: 3.051700 ms  DeleteObjects: 0.173900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 128148.553334 seconds.
-  path: Assets/AdventureForge/PreFab/Industrial Cabinets and Shelves/MetalCabinet01/RustedRed/512/MetalCabinetOpen02.prefab
-  artifactKey: Guid(6369a325aaf71a246bea5dc89e26fe69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AdventureForge/PreFab/Industrial Cabinets and Shelves/MetalCabinet01/RustedRed/512/MetalCabinetOpen02.prefab using Guid(6369a325aaf71a246bea5dc89e26fe69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce5ca49f8524d0aaaa1562ddab129e98') in 0.151271 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 15.962542 seconds.
-  path: Assets/Materials/ProtoDarkGrey.mat
-  artifactKey: Guid(378436a5eddf2d547aa909a8726cbc74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/ProtoDarkGrey.mat using Guid(378436a5eddf2d547aa909a8726cbc74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5354cc4130521b49ea4ea3d4b3477cb3') in 0.042886 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Materials/ProtoGreen.mat
-  artifactKey: Guid(06252444d6d7874449cef2fb999ebde5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/ProtoGreen.mat using Guid(06252444d6d7874449cef2fb999ebde5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a265a64c06e537ff1e6656f7771a21d5') in 0.022066 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 114.101978 seconds.
-  path: Assets/VertexField/Barrels/Prefabs/Barrel_Plastic.prefab
-  artifactKey: Guid(99ccec2645722c547832b04a89fce1d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VertexField/Barrels/Prefabs/Barrel_Plastic.prefab using Guid(99ccec2645722c547832b04a89fce1d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8fdada459a4f7a7ee4204d6de308962') in 0.082011 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/VertexField/Barrels/Prefabs/Barrel_White.prefab
-  artifactKey: Guid(d0dca0f3b53c4374180d9f31128b7fc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VertexField/Barrels/Prefabs/Barrel_White.prefab using Guid(d0dca0f3b53c4374180d9f31128b7fc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e22b42ed1d9f27b0fd368b50690ebf39') in 0.067907 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 271.763271 seconds.
-  path: Assets/Furniture Models/Table/TableMaterial.mat
-  artifactKey: Guid(82282f4b464fb604c893f69d7c25fe84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Furniture Models/Table/TableMaterial.mat using Guid(82282f4b464fb604c893f69d7c25fe84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40d32816352ca4c2bcde6f3414599624') in 0.502565 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 110.278620 seconds.
-  path: Assets/Furniture Models/Chair/ChairMaterial.mat
-  artifactKey: Guid(50d5fab83da9a54478bd20bb28df67e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Furniture Models/Chair/ChairMaterial.mat using Guid(50d5fab83da9a54478bd20bb28df67e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '254ba40b31374887380b3b6158d6848a') in 0.236012 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Furniture Models/Chair/ChairModel.FBX
-  artifactKey: Guid(476e702041e464c45a8153e776a54d17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Furniture Models/Chair/ChairModel.FBX using Guid(476e702041e464c45a8153e776a54d17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5dfb790bc5c8bfce77f06f0f4b4c2fa8') in 0.061413 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 557.965809 seconds.
-  path: Assets/Furniture Models/Chair/ChairMaterial.mat
-  artifactKey: Guid(50d5fab83da9a54478bd20bb28df67e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Furniture Models/Chair/ChairMaterial.mat using Guid(50d5fab83da9a54478bd20bb28df67e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea6fb2c047940242468397a368b57096') in 0.053452 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 591.550354 seconds.
-  path: Assets/Industrial Props/Prefabs/pallet.prefab
-  artifactKey: Guid(7260bcfd3e8d1774fbb6e6cb8ef1f5ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Industrial Props/Prefabs/pallet.prefab using Guid(7260bcfd3e8d1774fbb6e6cb8ef1f5ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '744b4bf1d22a7d3a570632268e9a601d') in 0.045832 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 709.924360 seconds.
-  path: Assets/Industrial Props/Prefabs/LightPole.prefab
-  artifactKey: Guid(aafe9fdf381df774fb44c73c25a40784) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Industrial Props/Prefabs/LightPole.prefab using Guid(aafe9fdf381df774fb44c73c25a40784) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2a2c3773a424603c694d645b64f5e71') in 0.030747 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.684824 seconds.
-  path: Assets/Industrial Props/Prefabs/OxygenTank.prefab
-  artifactKey: Guid(d42ca8e86419e394e8ee7cebf0c338e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Industrial Props/Prefabs/OxygenTank.prefab using Guid(d42ca8e86419e394e8ee7cebf0c338e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b164c91b5062571bb15209f42359801') in 0.063202 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Industrial Props/Prefabs/WaterTank.prefab
-  artifactKey: Guid(28b84caef8a775346bad0707768b08d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Industrial Props/Prefabs/WaterTank.prefab using Guid(28b84caef8a775346bad0707768b08d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9079729b04be2d1e6ea3a4de16ec772e') in 0.031288 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.007114 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\Satawin\Documents\GitHub\3DGameDev_Project1\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\Satawin\Documents\GitHub\3DGameDev_Project1\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.85 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.403 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1404ms)
-		BeginReloadAssembly (173ms)
+	ReloadAssembly (1099ms)
+		BeginReloadAssembly (110ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (58ms)
-		EndReloadAssembly (1123ms)
-			LoadAssemblies (94ms)
+			CreateAndSetChildDomain (18ms)
+		EndReloadAssembly (864ms)
+			LoadAssemblies (97ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (326ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (60ms)
-			SetupLoadedEditorAssemblies (553ms)
+			SetupTypeCache (295ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (49ms)
+			SetupLoadedEditorAssemblies (381ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (21ms)
+				InitializePlatformSupportModulesInManaged (7ms)
 				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (108ms)
-				ProcessInitializeOnLoadAttributes (347ms)
-				ProcessInitializeOnLoadMethodAttributes (58ms)
-				AfterProcessingInitializeOnLoad (15ms)
-				EditorAssembliesLoaded (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (92ms)
+				ProcessInitializeOnLoadAttributes (244ms)
+				ProcessInitializeOnLoadMethodAttributes (27ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (10ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.58 ms, found 3 plugins.
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.62 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3733 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 22 unused Assets / (130.3 KB). Loaded Objects now: 4262.
-Memory consumption went from 137.1 MB to 137.0 MB.
-Total: 5.369100 ms (FindLiveObjects: 0.778000 ms CreateObjectMapping: 0.348000 ms MarkObjects: 4.003600 ms  DeleteObjects: 0.237600 ms)
+Unloading 3757 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 28 unused Assets / (147.3 KB). Loaded Objects now: 4217.
+Memory consumption went from 134.3 MB to 134.2 MB.
+Total: 3.502600 ms (FindLiveObjects: 0.276500 ms CreateObjectMapping: 0.183700 ms MarkObjects: 2.926900 ms  DeleteObjects: 0.114800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -299,13 +163,137 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 557.204041 seconds.
-  path: Assets/Industrial Props/Prefabs/WorkLight.prefab
-  artifactKey: Guid(0dd137872bec6e04aaaaa2b3e9f3c5a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Industrial Props/Prefabs/WorkLight.prefab using Guid(0dd137872bec6e04aaaaa2b3e9f3c5a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f66cc860826a4ad858a378402b4f27c3') in 0.113527 seconds 
+  Time since last request: 140437.710660 seconds.
+  path: Assets/LowPolyOfficeProps_LITE/Prefabs/CellPhone.prefab
+  artifactKey: Guid(bd7dac146a034144fb4a57250777c4d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyOfficeProps_LITE/Prefabs/CellPhone.prefab using Guid(bd7dac146a034144fb4a57250777c4d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08506ac875f9800328f5fba36c9e75c0') in 0.309083 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 386.503444 seconds.
-  path: Assets/Furniture Models/Table/TableMaterial.mat
-  artifactKey: Guid(82282f4b464fb604c893f69d7c25fe84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Furniture Models/Table/TableMaterial.mat using Guid(82282f4b464fb604c893f69d7c25fe84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f32c11eec8ae0ddf81e602b15261bef') in 0.038143 seconds 
+  Time since last request: 0.413506 seconds.
+  path: Assets/LowPolyOfficeProps_LITE/Prefabs/Chair_Conference_Olive.prefab
+  artifactKey: Guid(fe5121614a9f24d4ba9c5a3636ff4151) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyOfficeProps_LITE/Prefabs/Chair_Conference_Olive.prefab using Guid(fe5121614a9f24d4ba9c5a3636ff4151) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65209a80566c6fec2dde766fdfd46c1a') in 0.036438 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/LowPolyOfficeProps_LITE/Prefabs/Chair_Office_Purple.prefab
+  artifactKey: Guid(584445047de52fb4ab7f6b25554eb174) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyOfficeProps_LITE/Prefabs/Chair_Office_Purple.prefab using Guid(584445047de52fb4ab7f6b25554eb174) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db1d3aa288fefb56bcd10f33cac78ffa') in 0.042592 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/LowPolyOfficeProps_LITE/Prefabs/PenLid.prefab
+  artifactKey: Guid(95eea767e49458344b1f963160375d43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyOfficeProps_LITE/Prefabs/PenLid.prefab using Guid(95eea767e49458344b1f963160375d43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a0b5af67135799507e23c00025dea6c') in 0.019556 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/LowPolyOfficeProps_LITE/Prefabs/Chair_Office_Green.prefab
+  artifactKey: Guid(3c4892661a827e04a97474743a73c0b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyOfficeProps_LITE/Prefabs/Chair_Office_Green.prefab using Guid(3c4892661a827e04a97474743a73c0b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09641c72abc6bf7ac574cff23441ac44') in 0.018512 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/LowPolyOfficeProps_LITE/Prefabs/Chair_Conference_Teal.prefab
+  artifactKey: Guid(c0ceea3170ebaca40b64c2630442a89d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyOfficeProps_LITE/Prefabs/Chair_Conference_Teal.prefab using Guid(c0ceea3170ebaca40b64c2630442a89d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c91a4d3c6eae73f4393f1c7524e42f60') in 0.017989 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/LowPolyOfficeProps_LITE/Prefabs/Chair_Conference_Purple.prefab
+  artifactKey: Guid(c42b35532e0b3ca428d6923660102d7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyOfficeProps_LITE/Prefabs/Chair_Conference_Purple.prefab using Guid(c42b35532e0b3ca428d6923660102d7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df02bc71b579d9c3b667c59c45e39b0e') in 0.023405 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/LowPolyOfficeProps_LITE/Prefabs/Chair_DeskChair_Red.prefab
+  artifactKey: Guid(1df03b106f100cd419dc3c0a744d2bb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyOfficeProps_LITE/Prefabs/Chair_DeskChair_Red.prefab using Guid(1df03b106f100cd419dc3c0a744d2bb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '397cb389487a91171cc5e155a77c8998') in 0.028209 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/LowPolyOfficeProps_LITE/Prefabs/PlantTypeA.prefab
+  artifactKey: Guid(5016dee2f2df1774e9c4ea33160fca26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyOfficeProps_LITE/Prefabs/PlantTypeA.prefab using Guid(5016dee2f2df1774e9c4ea33160fca26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f5f38d37a41e85e6a587034a335bfb6') in 0.032804 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/LowPolyOfficeProps_LITE/Prefabs/Chair_Office_Red.prefab
+  artifactKey: Guid(2ba61ae89b603e04384293242684b09e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyOfficeProps_LITE/Prefabs/Chair_Office_Red.prefab using Guid(2ba61ae89b603e04384293242684b09e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '226d242ca425bf95446b955075674079') in 0.021165 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/LowPolyOfficeProps_LITE/Prefabs/Tablet.prefab
+  artifactKey: Guid(a76d0962e5aaba2479107524e448f23d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyOfficeProps_LITE/Prefabs/Tablet.prefab using Guid(a76d0962e5aaba2479107524e448f23d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b2fb421c7c13bf1e4c009d5c94e2107') in 0.018283 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/LowPolyOfficeProps_LITE/Prefabs/Table_OfficeDesk.prefab
+  artifactKey: Guid(683ef653b4b09b94993b7fd393c95978) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyOfficeProps_LITE/Prefabs/Table_OfficeDesk.prefab using Guid(683ef653b4b09b94993b7fd393c95978) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '076d78ba100bf2e27d5a9c27cc0e90ab') in 0.020169 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/LowPolyOfficeProps_LITE/Prefabs/Chair_Conference_Red.prefab
+  artifactKey: Guid(bc0122c4f4cf45141b4325e217b4288f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyOfficeProps_LITE/Prefabs/Chair_Conference_Red.prefab using Guid(bc0122c4f4cf45141b4325e217b4288f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9af18d57917d2857e5f856e93329c85') in 0.021385 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/LowPolyOfficeProps_LITE/Prefabs/Laptop_Off.prefab
+  artifactKey: Guid(f0c2d9c0796a76d428d02150209c6d26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyOfficeProps_LITE/Prefabs/Laptop_Off.prefab using Guid(f0c2d9c0796a76d428d02150209c6d26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c376b91ca89343b2d1c92fd6fb3c742b') in 0.029874 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/LowPolyOfficeProps_LITE/Prefabs/FilingCabinet_DrawerKeyLock.prefab
+  artifactKey: Guid(3639bf5810525ab4fa32d65d1b6323a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyOfficeProps_LITE/Prefabs/FilingCabinet_DrawerKeyLock.prefab using Guid(3639bf5810525ab4fa32d65d1b6323a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8eaabe51d50061eff7082034ea8006e') in 0.021897 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/LowPolyOfficeProps_LITE/Prefabs/Laptop_Closed.prefab
+  artifactKey: Guid(20661e78605491946911818aa730569b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyOfficeProps_LITE/Prefabs/Laptop_Closed.prefab using Guid(20661e78605491946911818aa730569b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04065d1c3529926f6da9c6a6949b298f') in 0.019772 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/LowPolyOfficeProps_LITE/Prefabs/PenLidTop.prefab
+  artifactKey: Guid(5d38df3483541b24eb4740bb137f8a7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyOfficeProps_LITE/Prefabs/PenLidTop.prefab using Guid(5d38df3483541b24eb4740bb137f8a7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2aa2c37810d3acdf1b5a95334b54893') in 0.029951 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/LowPolyOfficeProps_LITE/Prefabs/FilingCabinet_Drawer.prefab
+  artifactKey: Guid(bf955aa6cf5b1774180125d6b6201b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyOfficeProps_LITE/Prefabs/FilingCabinet_Drawer.prefab using Guid(bf955aa6cf5b1774180125d6b6201b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b93bfe69a4394a98cc678a242e035893') in 0.021940 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/LowPolyOfficeProps_LITE/Prefabs/Chair_Office_Violet.prefab
+  artifactKey: Guid(74da286b950020745b667e6d613b1b8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyOfficeProps_LITE/Prefabs/Chair_Office_Violet.prefab using Guid(74da286b950020745b667e6d613b1b8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abbc411d7c650e245b3e76cf9ce9bfe3') in 0.029852 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/LowPolyOfficeProps_LITE/Prefabs/Umbrella_Open.prefab
+  artifactKey: Guid(40b06279c59767642a5c0e96f8835280) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyOfficeProps_LITE/Prefabs/Umbrella_Open.prefab using Guid(40b06279c59767642a5c0e96f8835280) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f068dea43ff744781e60c7065923bea') in 0.020348 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/LowPolyOfficeProps_LITE/Prefabs/Chair_Conference_Green.prefab
+  artifactKey: Guid(f0fd1300e91d2bf43b23bde299755026) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyOfficeProps_LITE/Prefabs/Chair_Conference_Green.prefab using Guid(f0fd1300e91d2bf43b23bde299755026) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '702e3c1f409bdb4e286ce5e95eb1f555') in 0.017376 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/LowPolyOfficeProps_LITE/Prefabs/FilingCabinetSingle_Case.prefab
+  artifactKey: Guid(a4827c3c34b766743b61c499b08e4c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyOfficeProps_LITE/Prefabs/FilingCabinetSingle_Case.prefab using Guid(a4827c3c34b766743b61c499b08e4c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a260a8a9f09ecea6ba8fcb5c5cdeac90') in 0.020611 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
