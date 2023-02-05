@@ -4,10 +4,12 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
+
+    public static Player instance;
     public float movespeed = 1.3f, gravForce;
     public float grabRange = 15f, grabSize = 1.5f;
     public float dropForce = 50, throwForce = 500;
-    public float crouchHeight = 0.4f, crouchSpeedMod = 0.75f;
+    public float crouchHeight = 0.6f, crouchSpeedMod = 0.75f;
 
     private float moveMod = 1;
     private float yMod = 1;
@@ -25,10 +27,15 @@ public class Player : MonoBehaviour
 
     [SerializeField]
     private bool canPickUp = false;
-    private bool crouched = false, justCrouched = false;
+    public bool crouched = false, justCrouched = false;
     [SerializeField]
     private GameObject objectToPickUp, objectInHand;
-    
+
+    private Transform enemyHead;
+
+
+    private bool caught = false;
+    private Camera myCamera;
 
 
 
@@ -38,19 +45,42 @@ public class Player : MonoBehaviour
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
 
+        instance = this;
+        myCamera = playerCam.GetComponentInChildren<Camera>();
     }
 
     // Update is called once per frame
     void Update()
     {
         Move();
-        Look();
         CheckCrouch();
         //CheckPickup();
 
+        if(caught)
+        {
+            LookAtEnemy();
+            myCamera.fieldOfView = Mathf.Lerp(75, 20, 0.5f);
+        } else 
+        {
+            if(GameManager.instance.paused)
+            {
 
+            } else 
+            {
+                Look();
+            }
+            
+        }
+        
 
         
+    }
+
+    public void GetCaught(Transform enemyHead)
+    {
+        caught = true;
+        this.enemyHead = enemyHead;
+        GameManager.instance.PlayerCaught();
     }
 
     void CheckPickup()
@@ -154,7 +184,7 @@ public class Player : MonoBehaviour
 
         if(justCrouched)
         {
-            transform.Translate(Vector3.down * crouchHeight * 2);
+            transform.Translate(Vector3.down * crouchHeight * 1.25f);
         }
     }
 
@@ -178,6 +208,23 @@ public class Player : MonoBehaviour
         //Perform the rotations
         playerCam.transform.localRotation = Quaternion.Euler(xRotation, desiredX, desiredZ);
         body.transform.localRotation = Quaternion.Euler(0, desiredX, 0);
+    }
+
+    private void LookAtEnemy() {
+
+
+        /*
+        //Find current look rotation
+        Vector3 rot = playerCam.transform.localRotation.eulerAngles;
+        desiredX = rot.y;
+
+        xRotation = Mathf.Clamp(xRotation, -90f, 90f);
+
+        //Perform the rotations
+        playerCam.transform.localRotation = Quaternion.Euler(xRotation, desiredX, desiredZ);
+        body.transform.localRotation = Quaternion.Euler(0, desiredX, 0);
+        */
+        playerCam.transform.LookAt(enemyHead.position);
     }
 
 

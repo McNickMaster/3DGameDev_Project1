@@ -11,7 +11,7 @@ public class Enemy : MonoBehaviour
 
     public NavMeshAgent agent;
 
-    public float vision_distance = 100f;
+    public float vision_distance = 200f;
 
     [SerializeField]
     private bool atTarget = false, castHit = false;
@@ -64,27 +64,39 @@ public class Enemy : MonoBehaviour
 
     void DetectPlayer()
     {
-        RaycastHit hit = SendCast();
+        RaycastHit[] hits = SendCast();
 
-        if(hit.collider != null)
+        foreach(RaycastHit hit in hits)
         {
+            if(hit.collider != null)
+            {
             //Debug.Log(hit.collider.name);
 
-            if(hit.collider.name.Equals("PlayerModel"))
-            {
-                Time.timeScale = 0.1f;
-                Debug.Log("*GAME OVER*");
+                if(hit.collider.name.Equals("PlayerModel"))
+                {
+                
+                    Time.timeScale = 0.025f;
+                    Player.instance.GetCaught(head);
+                    Debug.Log("*GAME OVER*");
+                }
             }
         }
+        
     }
 
-    RaycastHit SendCast()
+    RaycastHit[] SendCast()
     {
-        RaycastHit hit;
+        RaycastHit hit1, hit2, hit3, hit4, hit5, hit6;
         
-        castHit = Physics.BoxCast(head.position,  new Vector3(3,2,3),transform.forward, out hit, transform.rotation, vision_distance);
+        Physics.Raycast(head.position - (transform.right * 0.2f) + (transform.forward * 0.5f), transform.forward, out hit1);
+        Physics.Raycast(head.position - (transform.right * 0.2f) + (transform.forward * 0.5f) - (transform.up * 0.5f), transform.forward, out hit2);
+        Physics.Raycast(head.position - (transform.right * 0.2f) + (transform.forward * 0.5f) - (transform.up), transform.forward, out hit3);
 
-        return hit;
+        Physics.Raycast(head.position + (transform.right * 0.2f) + (transform.forward * 0.5f), transform.forward, out hit4);
+        Physics.Raycast(head.position + (transform.right * 0.2f) + (transform.forward * 0.5f) - (transform.up * 0.5f), transform.forward, out hit5);
+        Physics.Raycast(head.position + (transform.right * 0.2f) + (transform.forward * 0.5f) - (transform.up), transform.forward, out hit6);
+
+        return new RaycastHit[]{hit1, hit2, hit3};
     }
 
     void OnDrawGizmos()
