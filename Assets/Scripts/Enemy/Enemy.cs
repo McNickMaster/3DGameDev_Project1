@@ -88,13 +88,13 @@ public class Enemy : MonoBehaviour
     {
         RaycastHit hit1, hit2, hit3, hit4, hit5, hit6;
         
-        Physics.Raycast(head.position - (transform.right * 0.2f) + (transform.forward * 0.5f), transform.forward, out hit1);
-        Physics.Raycast(head.position - (transform.right * 0.2f) + (transform.forward * 0.5f) - (transform.up * 0.5f), transform.forward, out hit2);
-        Physics.Raycast(head.position - (transform.right * 0.2f) + (transform.forward * 0.5f) - (transform.up), transform.forward, out hit3);
+        Physics.Raycast(head.position - (transform.right * 0.2f) + (transform.forward * 0.5f), transform.forward, out hit1, vision_distance);
+        Physics.Raycast(head.position - (transform.right * 0.2f) + (transform.forward * 0.5f) - (transform.up * 0.5f), transform.forward, out hit2, vision_distance);
+        Physics.Raycast(head.position - (transform.right * 0.2f) + (transform.forward * 0.5f) - (transform.up), transform.forward, out hit3, vision_distance);
 
-        Physics.Raycast(head.position + (transform.right * 0.2f) + (transform.forward * 0.5f), transform.forward, out hit4);
-        Physics.Raycast(head.position + (transform.right * 0.2f) + (transform.forward * 0.5f) - (transform.up * 0.5f), transform.forward, out hit5);
-        Physics.Raycast(head.position + (transform.right * 0.2f) + (transform.forward * 0.5f) - (transform.up), transform.forward, out hit6);
+        Physics.Raycast(head.position + (transform.right * 0.2f) + (transform.forward * 0.5f), transform.forward, out hit4, vision_distance);
+        Physics.Raycast(head.position + (transform.right * 0.2f) + (transform.forward * 0.5f) - (transform.up * 0.5f), transform.forward, out hit5, vision_distance);
+        Physics.Raycast(head.position + (transform.right * 0.2f) + (transform.forward * 0.5f) - (transform.up), transform.forward, out hit6, vision_distance);
 
         return new RaycastHit[]{hit1, hit2, hit3};
     }

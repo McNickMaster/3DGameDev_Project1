@@ -7,7 +7,7 @@ public class GameManager : MonoBehaviour
 {
     public static GameManager instance;
 
-    public GameObject gameOverUI, pauseUI;
+    public GameObject gameOverUI, pauseUI, winUI;
 
     public bool paused = false;
     private bool gameOver = false;
@@ -64,6 +64,13 @@ public class GameManager : MonoBehaviour
     void EndGame()
     {
         gameOverUI.SetActive(true);
+        gameOver = true;
+        ApplyUIMouse();
+    }
+
+    public void Win()
+    {
+        winUI.SetActive(true);
         gameOver = true;
         ApplyUIMouse();
     }

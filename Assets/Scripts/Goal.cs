@@ -19,7 +19,10 @@ public class Goal : MonoBehaviour
 
     void OnTriggerEnter(Collider other)
     {
-        //win
+        if(other.gameObject.name.Equals("PlayerModel"))
+        {
+            GameManager.instance.Win();
+        }
     }
 
 }
